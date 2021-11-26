@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: rgb(134, 134, 252);
+}
+.logo img{
+    height: auto;
+    width: 60px;
+
+}
+.menu ul{
+    float: right;
+    margin: 0;
+}
+.menu ul li{
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-right: 1px solid white;
+    
+    
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 17px;
+    display: inline-block;
+    line-height: 30px;
+    
+}
+.menu ul li a:hover{
+    background-color: blueviolet;
+}
+.banner{
+    background-image: url(images/bg.jpg);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-text h1{
+    color: antiquewhite;
+    background-color:brown;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.banner-text h6{
+    color: antiquewhite;
+    background-color:rgb(223, 66, 144) ;
+    max-width: 550px;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.about-us{
+    padding: 100px;
+    background-color: rgb(255, 209, 102);
+}
+.service-item{
+    padding: 30px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.service img{
+    max-width: 100%;
+}
+.service p{
+    font-size: 18px;
+}
+.notice ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+.notice ul li{
+    background-color: darkgrey;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer{
+    padding: 10px;
+    background-color: darkslategray;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+
+
